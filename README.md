@@ -1,2 +1,2 @@
 # Movuino-Pain-Tracker
-Development of a bracelet used to track 
+Development of a bracelet used to track chronic pain. The bracelet uses a Movuino that stores the pain intensity and date of each pain instance locally. Once connected via bluetooth, the Movuino sends the data to the connected device running the Node.js server, which transfers it into a MongoDB Database. In the database, the pain instances can be visualised on their corresponding graph.
